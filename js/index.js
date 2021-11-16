@@ -1,7 +1,7 @@
 
 const sBtn = document.getElementById('startBtn').addEventListener('click', function drawSquare () {
   const getSpeed = prompt('Enter a Number wich will represent the drawing speed, e.g  1000 - 1sec , 10000 - 10sec');
-      if (getSpeed === '' || getSpeed === false) {
+      if (getSpeed === '') {
                     var ctx = document.getElementById('canvas').getContext('2d');
                     ctx.font = '48px serif';
                     ctx.fillText('ERROR 9119', 80, 50);
